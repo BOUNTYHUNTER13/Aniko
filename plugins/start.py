@@ -57,13 +57,8 @@ async def start_message(client: Client, message: Message):
     caption=f'''
 Hi {message.from_user.first_name}! 
 I am Aniko, *nods*
-A Bot that helps you to watch/search anime online. *slight smile*
-I am currently Hosted on Heroku, *cries*
-And I am still in development On AI Api. *uwu*
-I am Currently in Beta Version, *nods*
-so please be patient. `uwu`
+Use of this bot is to search and watch anime and group management
 
-My Owner : @{dr}
 ''',
                              reply_markup=main_markup)
     return
